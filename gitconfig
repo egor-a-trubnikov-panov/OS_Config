@@ -1,0 +1,46 @@
+[user]
+    name = egor.a.trubnikov.panov
+    email = egor.a.trubnikov.panov@gmail.com
+[github]
+    user = egor.a.trubnikov.panov
+[core]
+    editor = atom -n -w
+    excludesfile = ~/.gitignore
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red
+    new = cyan
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+[merge]
+    ff = no
+[alias]
+    cp = cherry-pick
+    st = status -s
+    cl = clone
+    cm = commit
+    co = checkout
+    br = branch
+    di = diff
+    dc = diff --cached
+    ls = ls-files
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    back = reset --soft HEAD^
+    cleanup = remote prune origin
+    ignore = update-index --assume-unchanged
+    unignore = update-index --no-assume-unchanged
+    lsi = !git ls-files -v | grep '^h'
+    lg  = log --oneline --graph --decorate --all
+    hi = log --oneline --graph --decorate --all --simplify-by-decoration

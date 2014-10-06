@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo -v # ask for password only at the beginning
+
+npm i -g bem-cli
+npm i -g grunt-cli

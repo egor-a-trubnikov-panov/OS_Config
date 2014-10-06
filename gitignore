@@ -1,0 +1,23 @@
+# OSX
+.DS_Store
+._*
+.Trashes
+
+# SVN
+*.svn/
+
+# Mercurial
+.hgignore
+
+# IDEA
+.idea/
+.iml
+
+# vim
+.*.s[a-w][a-z]
+*~
+.netrwhist
+
+# Node.js
+npm-debug.log
+.node_modules/
