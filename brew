@@ -12,28 +12,5 @@ chsh -s /usr/local/bin/bash
 brew install git
 brew install node
 brew install wget
-
-brew cask install atom
-brew cask install webstorm
-brew cask install transmit
-brew cask install cleanmymac
-
-brew cask install google-chrome
-brew cask install firefox
-brew cask install opera
-brew cask install intellij-idea-ultimate-eap
-
-brew cask install macdown
-brew cask install parallels
-brew cask install steam
-brew cask install sitesucker
-brew cask install infinit
-brew cask install github
-brew cask install forklift
-brew cask install adobe-photoshop-lightroom
-brew cask install airdisplay
-
-brew cask install transmission
-brew cask install imageoptim
-
-brew cleanup
+brew install mc
+brew install 

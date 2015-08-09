@@ -2,5 +2,6 @@
 
 sudo -v # ask for password only at the beginning
 
-npm i -g bem-cli
-npm i -g grunt-cli
+npm i -g base64
+npm i -g svgo
+npm i -g gulp
